@@ -1,0 +1,85 @@
+.resume {
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.left {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.right {
+    width: 70px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container {
+  width: 100%;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-column {
+  float: right;
+  width: 50%;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+/*The display Property
+Common display Values:
+block: Forces the element to start on a new line.
+inline: Keeps elements on the same line.
+inline-block: Same as inline, but allows setting width and height.
+none: Hides the element completely.
+Example:
+.button {
+  display: inline-block;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+}
+
+/*Positioning Elements with position
+The position property tells the browser how an element should be placed.
+
+Values:
+static (default): Regular flow of the page.
+relative: Moves the element relative to its normal spot.
+absolute: Removes the element from normal flow and places it relative to the nearest positioned ancestor.
+fixed: Stays in the same position even when scrolling.
+sticky: Switches between relative and fixed based on scroll.
+Example: */
+/*
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/

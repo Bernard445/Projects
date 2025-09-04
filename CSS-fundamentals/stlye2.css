@@ -1,0 +1,19 @@
+/*h1 {
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+/*Previous CSS rules 
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    */
+
+/*Descendant combinator*/
+article p {
+    color: lightgrey;
+}
+
+/*child combinator*/
+article > p {
+    margin-left: 20px;
+}

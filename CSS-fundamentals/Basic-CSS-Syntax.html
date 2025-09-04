@@ -1,0 +1,89 @@
+selector {
+    property: value
+}
+<!--
+Selector: Specifies which HTML element(s) to style (e.g., h1, p, .classname, #id).
+Property: The visual characteristic you want to change (e.g., color, font-size, margin).
+Value: The value to assign to the property (e.g., blue, 16px, 10px).
+-->
+
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+<!--✍️ How to Add CSS to HTML
+There are three main ways to apply CSS to an HTML document:
+
+Inline CSS: Applied directly within an HTML element using the style attribute. This takes the highest priority.
+Internal CSS: Defined within a <style> tag in the <head> section of the HTML document. It is second in priority.
+External CSS: Linked via an external stylesheet using the <link> tag. It has the lowest priority.-->
+
+
+<!--
+
+External CSS (Recommended)
+Link to a separate CSS file using the <link> tag in the <head> section. This is the most common method.
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+-->
+
+<!--
+Additional Selectors 
+Group Selector: Apply the same styles to multiple selectors.
+
+h1, h2, p {
+  color: black;
+}
+
+
+Universal Selector: Targets all elements on the page.
+
+* {
+  margin: 0;
+  padding: 0;
+}
+-->
+
+<!-- 
+
+CSS Properties to Know
+
+
+Color: Changes the color of text.
+
+p {
+  color: navy;
+}
+
+
+Background Color: Changes the background color of an element.
+
+div {
+  background-color: lightgray;
+}
+
+
+Font Size: Changes the size of the text.
+
+h1 {
+  font-size: 36px;
+}
+
+
+Text Alignment: Aligns text (left, right, center).
+
+h2 {
+  text-align: center;
+}
+
+
+Width and Height: Defines the size of an element.
+
+img {
+  width: 300px;
+  height: 200px;
+}-->

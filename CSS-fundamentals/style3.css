@@ -1,0 +1,35 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-size: 22px;
+}
+
+.container {
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgb(183, 241, 171);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #e20606;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+css a:hover {
+  color: green;
+}
+
+/*Apply a style for focused input fields:*/
+
+css input:focus {
+  border: 2px solid blue;
+}

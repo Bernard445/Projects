@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+
+<!--Text Input  
+
+Use the <input> tag with type="text" for single-line text input.
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name">
+
+
+<label>: Describes the input field.
+<input type="text">: Creates a text input field.
+id and name: Used to identify and refer to the input field.
+placeholder: Provides a hint to the user about what to enter.
+
+<form>: Defines the form itself.
+action: Specifies where the form data should be sent when submitted.
+method: Defines the HTTP method to use when sending form data (GET or POST)
+ -->
+<form action="/submit" method="POST">
+  	<label for="name">Name:</label>
+    <input type="text" id="name" name="name"   placeholder="Enter your name">
+</form>
+
+<!--Password Field
+Use type="password" for secure password input.
+--- <input type="password">: Masks the input, so the text entered is hidden.
+-->
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+
+<!-- Radio Buttons
+ Radio buttons allow users to select one option from a group.
+ <input type="radio">: Creates a radio button.
+The name attribute must be the same for all radio buttons in the group so that only one can be selected.
+-->
+
+<p>Gender:</p>
+<div>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male" style="margin-right: 20px;">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+</div>
+
+<!--Checkboxes
+Checkboxes allow users to select multiple options.
+<input type="checkbox">: Creates a checkbox.
+-->
+
+<p>Hobbies:</p>
+<div>
+      <input type="checkbox" id="reading" name="hobbies" value="reading">
+      <label for="reading">Reading</label>
+
+      <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+      <label for="gaming">Gaming</label>
+
+      <input type="checkbox" id="studying" name="hobbies" value="studying">
+      <label for="studying">Studying</label>
+</div>
+
+<!--Dropdown Lists (Select Boxes)
+To create a dropdown list, use the <select> element and <option> elements for each option.
+-->
+<label for="country">Country:</label>
+<select id="country" name="country">
+  <option value="usa">United States</option>
+  <option value="canada">Canada</option>
+  <option value="uk">United Kingdom</option>
+</select>
+
+
+<!--For longer text inputs, like comments or messages, use the <textarea> element.
+-->
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+<!--Submit Button
+<input type="submit">: Submits the form data to the server.
+-->
+
+<input type="submit" value="Submit">
+
+<!--Email Field 
+Use the type="email" attribute to create an input field specifically for email addresses. This ensures that the user enters a properly formatted email.
+
+-->
+
+<label for="user-email">Email</label>
+<input type="email" id="user-email" name="user-email" placeholder="Enter your email">
+
+<!--Number Field 
+The type="number" attribute is used for numeric input. You can also specify minimum, maximum, and step values to control the range of allowed numbers.
+
+min and max: Set the minimum and maximum values the user can enter.
+step: Defines the increments allowed when increasing or decreasing the value.
+-->
+
+<label for="quantity">Quantity</label>
+<input type="number" id="quantity" name="quantity" min="1" max="10" step="1">
+
+<!--Date Field 
+To collect a date from the user, use the type="date" attribute. This provides a date picker interface in most modern browsers.
+
+-->
+
+<label for="birthdate">Birthdate</label>
+<input type="date" id="birthdate" name="birthdate" required>

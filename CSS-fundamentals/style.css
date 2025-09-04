@@ -1,0 +1,31 @@
+h2 {
+    color: darkslategray;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+.special-text {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#test-id {
+    font-size: 16px ;
+}
+
+#main-heading {
+    color: darkmagenta;
+}
+
+.urgent-text {
+    color: red !important;
+}
